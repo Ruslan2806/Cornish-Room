@@ -1,9 +1,9 @@
 CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o: \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/ray_tracer.cpp \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/ray_tracer.cpp \
  /usr/include/stdc-predef.h \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/ray_tracer.h \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/ray.h \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/point3d.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/ray_tracer.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/ray.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/point3d.h \
  /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -88,15 +88,15 @@ CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o: \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/graphics/color.h \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/graphics/light.h \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/graphics/../geometry/point3d.h \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/graphics/color.h \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/graphics/material.h \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/figure.h \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/ray.h \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/side.h \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/../graphics/color.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/graphics/color.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/graphics/light.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/graphics/../geometry/point3d.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/graphics/color.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/graphics/material.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/figure.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/ray.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/side.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/../graphics/color.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
  /usr/include/c++/13/bits/new_allocator.h /usr/include/c++/13/new \
@@ -119,7 +119,7 @@ CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o: \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/../graphics/material.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/../graphics/material.h \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \

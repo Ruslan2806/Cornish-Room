@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room
+CMAKE_SOURCE_DIR = /home/ruslan/Документы/GitHub/Cornish-Room
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build
+CMAKE_BINARY_DIR = /home/ruslan/Документы/GitHub/Cornish-Room/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RayTracing.dir/depend.make
@@ -70,130 +70,130 @@ include CMakeFiles/RayTracing.dir/progress.make
 include CMakeFiles/RayTracing.dir/flags.make
 
 CMakeFiles/RayTracing.dir/src/main.cpp.o: CMakeFiles/RayTracing.dir/flags.make
-CMakeFiles/RayTracing.dir/src/main.cpp.o: /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/main.cpp
+CMakeFiles/RayTracing.dir/src/main.cpp.o: /home/ruslan/Документы/GitHub/Cornish-Room/src/main.cpp
 CMakeFiles/RayTracing.dir/src/main.cpp.o: CMakeFiles/RayTracing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RayTracing.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/main.cpp.o -MF CMakeFiles/RayTracing.dir/src/main.cpp.o.d -o CMakeFiles/RayTracing.dir/src/main.cpp.o -c /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RayTracing.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/main.cpp.o -MF CMakeFiles/RayTracing.dir/src/main.cpp.o.d -o CMakeFiles/RayTracing.dir/src/main.cpp.o -c /home/ruslan/Документы/GitHub/Cornish-Room/src/main.cpp
 
 CMakeFiles/RayTracing.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/main.cpp > CMakeFiles/RayTracing.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Cornish-Room/src/main.cpp > CMakeFiles/RayTracing.dir/src/main.cpp.i
 
 CMakeFiles/RayTracing.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/main.cpp -o CMakeFiles/RayTracing.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Cornish-Room/src/main.cpp -o CMakeFiles/RayTracing.dir/src/main.cpp.s
 
 CMakeFiles/RayTracing.dir/src/application.cpp.o: CMakeFiles/RayTracing.dir/flags.make
-CMakeFiles/RayTracing.dir/src/application.cpp.o: /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/application.cpp
+CMakeFiles/RayTracing.dir/src/application.cpp.o: /home/ruslan/Документы/GitHub/Cornish-Room/src/application.cpp
 CMakeFiles/RayTracing.dir/src/application.cpp.o: CMakeFiles/RayTracing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RayTracing.dir/src/application.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/application.cpp.o -MF CMakeFiles/RayTracing.dir/src/application.cpp.o.d -o CMakeFiles/RayTracing.dir/src/application.cpp.o -c /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RayTracing.dir/src/application.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/application.cpp.o -MF CMakeFiles/RayTracing.dir/src/application.cpp.o.d -o CMakeFiles/RayTracing.dir/src/application.cpp.o -c /home/ruslan/Документы/GitHub/Cornish-Room/src/application.cpp
 
 CMakeFiles/RayTracing.dir/src/application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/src/application.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/application.cpp > CMakeFiles/RayTracing.dir/src/application.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Cornish-Room/src/application.cpp > CMakeFiles/RayTracing.dir/src/application.cpp.i
 
 CMakeFiles/RayTracing.dir/src/application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/src/application.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/application.cpp -o CMakeFiles/RayTracing.dir/src/application.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Cornish-Room/src/application.cpp -o CMakeFiles/RayTracing.dir/src/application.cpp.s
 
 CMakeFiles/RayTracing.dir/src/scene.cpp.o: CMakeFiles/RayTracing.dir/flags.make
-CMakeFiles/RayTracing.dir/src/scene.cpp.o: /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/scene.cpp
+CMakeFiles/RayTracing.dir/src/scene.cpp.o: /home/ruslan/Документы/GitHub/Cornish-Room/src/scene.cpp
 CMakeFiles/RayTracing.dir/src/scene.cpp.o: CMakeFiles/RayTracing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RayTracing.dir/src/scene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/scene.cpp.o -MF CMakeFiles/RayTracing.dir/src/scene.cpp.o.d -o CMakeFiles/RayTracing.dir/src/scene.cpp.o -c /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RayTracing.dir/src/scene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/scene.cpp.o -MF CMakeFiles/RayTracing.dir/src/scene.cpp.o.d -o CMakeFiles/RayTracing.dir/src/scene.cpp.o -c /home/ruslan/Документы/GitHub/Cornish-Room/src/scene.cpp
 
 CMakeFiles/RayTracing.dir/src/scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/src/scene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/scene.cpp > CMakeFiles/RayTracing.dir/src/scene.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Cornish-Room/src/scene.cpp > CMakeFiles/RayTracing.dir/src/scene.cpp.i
 
 CMakeFiles/RayTracing.dir/src/scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/src/scene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/scene.cpp -o CMakeFiles/RayTracing.dir/src/scene.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Cornish-Room/src/scene.cpp -o CMakeFiles/RayTracing.dir/src/scene.cpp.s
 
 CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o: CMakeFiles/RayTracing.dir/flags.make
-CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o: /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/ray_tracer.cpp
+CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o: /home/ruslan/Документы/GitHub/Cornish-Room/src/ray_tracer.cpp
 CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o: CMakeFiles/RayTracing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o -MF CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o.d -o CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o -c /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/ray_tracer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o -MF CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o.d -o CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.o -c /home/ruslan/Документы/GitHub/Cornish-Room/src/ray_tracer.cpp
 
 CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/ray_tracer.cpp > CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Cornish-Room/src/ray_tracer.cpp > CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.i
 
 CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/ray_tracer.cpp -o CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Cornish-Room/src/ray_tracer.cpp -o CMakeFiles/RayTracing.dir/src/ray_tracer.cpp.s
 
 CMakeFiles/RayTracing.dir/src/ui.cpp.o: CMakeFiles/RayTracing.dir/flags.make
-CMakeFiles/RayTracing.dir/src/ui.cpp.o: /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/ui.cpp
+CMakeFiles/RayTracing.dir/src/ui.cpp.o: /home/ruslan/Документы/GitHub/Cornish-Room/src/ui.cpp
 CMakeFiles/RayTracing.dir/src/ui.cpp.o: CMakeFiles/RayTracing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RayTracing.dir/src/ui.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/ui.cpp.o -MF CMakeFiles/RayTracing.dir/src/ui.cpp.o.d -o CMakeFiles/RayTracing.dir/src/ui.cpp.o -c /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/ui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RayTracing.dir/src/ui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/ui.cpp.o -MF CMakeFiles/RayTracing.dir/src/ui.cpp.o.d -o CMakeFiles/RayTracing.dir/src/ui.cpp.o -c /home/ruslan/Документы/GitHub/Cornish-Room/src/ui.cpp
 
 CMakeFiles/RayTracing.dir/src/ui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/src/ui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/ui.cpp > CMakeFiles/RayTracing.dir/src/ui.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Cornish-Room/src/ui.cpp > CMakeFiles/RayTracing.dir/src/ui.cpp.i
 
 CMakeFiles/RayTracing.dir/src/ui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/src/ui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/ui.cpp -o CMakeFiles/RayTracing.dir/src/ui.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Cornish-Room/src/ui.cpp -o CMakeFiles/RayTracing.dir/src/ui.cpp.s
 
 CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.o: CMakeFiles/RayTracing.dir/flags.make
-CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.o: /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/figure.cpp
+CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.o: /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/figure.cpp
 CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.o: CMakeFiles/RayTracing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.o -MF CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.o.d -o CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.o -c /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/figure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.o -MF CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.o.d -o CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.o -c /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/figure.cpp
 
 CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/figure.cpp > CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/figure.cpp > CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.i
 
 CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/figure.cpp -o CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/figure.cpp -o CMakeFiles/RayTracing.dir/src/geometry/figure.cpp.s
 
 CMakeFiles/RayTracing.dir/src/geometry/side.cpp.o: CMakeFiles/RayTracing.dir/flags.make
-CMakeFiles/RayTracing.dir/src/geometry/side.cpp.o: /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/side.cpp
+CMakeFiles/RayTracing.dir/src/geometry/side.cpp.o: /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/side.cpp
 CMakeFiles/RayTracing.dir/src/geometry/side.cpp.o: CMakeFiles/RayTracing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RayTracing.dir/src/geometry/side.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/geometry/side.cpp.o -MF CMakeFiles/RayTracing.dir/src/geometry/side.cpp.o.d -o CMakeFiles/RayTracing.dir/src/geometry/side.cpp.o -c /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/side.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RayTracing.dir/src/geometry/side.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/geometry/side.cpp.o -MF CMakeFiles/RayTracing.dir/src/geometry/side.cpp.o.d -o CMakeFiles/RayTracing.dir/src/geometry/side.cpp.o -c /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/side.cpp
 
 CMakeFiles/RayTracing.dir/src/geometry/side.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/src/geometry/side.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/side.cpp > CMakeFiles/RayTracing.dir/src/geometry/side.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/side.cpp > CMakeFiles/RayTracing.dir/src/geometry/side.cpp.i
 
 CMakeFiles/RayTracing.dir/src/geometry/side.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/src/geometry/side.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/side.cpp -o CMakeFiles/RayTracing.dir/src/geometry/side.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/side.cpp -o CMakeFiles/RayTracing.dir/src/geometry/side.cpp.s
 
 CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.o: CMakeFiles/RayTracing.dir/flags.make
-CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.o: /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/sphere.cpp
+CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.o: /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/sphere.cpp
 CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.o: CMakeFiles/RayTracing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.o -MF CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.o.d -o CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.o -c /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.o -MF CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.o.d -o CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.o -c /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/sphere.cpp
 
 CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/sphere.cpp > CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/sphere.cpp > CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.i
 
 CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/geometry/sphere.cpp -o CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Cornish-Room/src/geometry/sphere.cpp -o CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.s
 
 CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o: CMakeFiles/RayTracing.dir/flags.make
-CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o: /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/utils/image_writer.cpp
+CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o: /home/ruslan/Документы/GitHub/Cornish-Room/src/utils/image_writer.cpp
 CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o: CMakeFiles/RayTracing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o -MF CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o.d -o CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o -c /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/utils/image_writer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ruslan/Документы/GitHub/Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o -MF CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o.d -o CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o -c /home/ruslan/Документы/GitHub/Cornish-Room/src/utils/image_writer.cpp
 
 CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/utils/image_writer.cpp > CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ruslan/Документы/GitHub/Cornish-Room/src/utils/image_writer.cpp > CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.i
 
 CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/utils/image_writer.cpp -o CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ruslan/Документы/GitHub/Cornish-Room/src/utils/image_writer.cpp -o CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.s
 
 # Object files for target RayTracing
 RayTracing_OBJECTS = \
@@ -220,8 +220,11 @@ bin/RayTracing: CMakeFiles/RayTracing.dir/src/geometry/side.cpp.o
 bin/RayTracing: CMakeFiles/RayTracing.dir/src/geometry/sphere.cpp.o
 bin/RayTracing: CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o
 bin/RayTracing: CMakeFiles/RayTracing.dir/build.make
+bin/RayTracing: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.6.1
+bin/RayTracing: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.6.1
+bin/RayTracing: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.6.1
 bin/RayTracing: CMakeFiles/RayTracing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable bin/RayTracing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ruslan/Документы/GitHub/Cornish-Room/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable bin/RayTracing"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RayTracing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,6 +236,6 @@ CMakeFiles/RayTracing.dir/clean:
 .PHONY : CMakeFiles/RayTracing.dir/clean
 
 CMakeFiles/RayTracing.dir/depend:
-	cd /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles/RayTracing.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ruslan/Документы/GitHub/Cornish-Room/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ruslan/Документы/GitHub/Cornish-Room /home/ruslan/Документы/GitHub/Cornish-Room /home/ruslan/Документы/GitHub/Cornish-Room/build /home/ruslan/Документы/GitHub/Cornish-Room/build /home/ruslan/Документы/GitHub/Cornish-Room/build/CMakeFiles/RayTracing.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/RayTracing.dir/depend
 

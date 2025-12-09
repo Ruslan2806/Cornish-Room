@@ -16,6 +16,10 @@ public:
     void render();
     void setSettings(const SceneSettings& settings);
     void setLight2Position(float x, float y, float z);
+    const std::vector<std::vector<Color>>& getPixels() const { return pixels; }
+    int getWidth() const { return scene.camera.width; }
+    int getHeight() const { return scene.camera.height; }
+    const SceneSettings& getSettings() const { return scene.settings; }
 
 private:
     Scene scene;

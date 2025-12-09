@@ -38,7 +38,12 @@ set(HEADERS
 )
 
 # Создаем исполняемый файл
+# SFML
+find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
+
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
+
+target_link_libraries(${PROJECT_NAME} PRIVATE sfml-graphics sfml-window sfml-system)
 
 # Устанавливаем выходной каталог
 set_target_properties(${PROJECT_NAME} PROPERTIES

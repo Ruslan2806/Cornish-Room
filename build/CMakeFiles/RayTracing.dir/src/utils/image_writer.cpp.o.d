@@ -1,8 +1,8 @@
 CMakeFiles/RayTracing.dir/src/utils/image_writer.cpp.o: \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/utils/image_writer.cpp \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/utils/image_writer.cpp \
  /usr/include/stdc-predef.h \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/utils/image_writer.h \
- /home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/src/utils/../graphics/color.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/utils/image_writer.h \
+ /home/ruslan/Документы/GitHub/Cornish-Room/src/utils/../graphics/color.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
