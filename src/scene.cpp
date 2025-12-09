@@ -42,14 +42,14 @@ void Scene::build_scene() {
     room.back_wall_material = Material(refl, refr, amb, dif, env);
 
     // Передняя стена (желтая)
-    room.sides[1].color = Color(0.98f, 0.98f, 0.82f);  // LightGoldenrodYellow
+    room.sides[1].color = Color(0.54f, 0.16f, 0.88f);  // LightGoldenrodYellow
     if (settings.front_wall_specular) {
         refl = 0.8f; refr = 0.0f; amb = 0.0f; dif = 0.0f; env = 1.0f;
     } else {
         refl = 0.0f; refr = 0.0f; amb = 0.1f; dif = 0.8f; env = 1.0f;
     }
     room.front_wall_material = Material(refl, refr, amb, dif, env);
-
+     
     // Правая стена (бирюзовая)
     room.sides[2].color = Color(0.13f, 0.7f, 0.67f);  // LightSeaGreen
     if (settings.right_wall_specular) {
@@ -73,7 +73,7 @@ void Scene::build_scene() {
     if (settings.up_wall_specular) {
         refl = 0.8f; refr = 0.0f; amb = 0.0f; dif = 0.0f; env = 1.0f;
     } else {
-        refl = 0.0f; refr = 0.0f; amb = 0.1f; dif = 0.8f; env = 1.0f;
+        refl = 0.0f; refr = 0.0f; amb = 0.3f; dif = 0.9f; env = 1.0f;  // Увеличено ambient для более белого потолка
     }
     room.up_wall_material = Material(refl, refr, amb, dif, env);
 
@@ -89,7 +89,7 @@ void Scene::build_scene() {
     figures.push_back(std::make_unique<Figure>(room));
 
     // Источники света
-    Light l1(Point3D(0.0f, 1.0f, 4.9f), Color(1.0f, 1.0f, 1.0f));
+    Light l1(Point3D(0.0f, 1.0f, 4.5f), Color(1.0f, 1.0f, 1.0f));
     lights.push_back(l1);
 
     if (settings.two_lights) {

@@ -124,8 +124,15 @@ bool Figure::figure_intersection(const Ray& r, float& t, Point3D& normal, Materi
 }
 
 void Figure::set_color(const Color& color) {
-    for (size_t i = 0; i < sides.size(); ++i) {
-        sides[i].color = color;
+    // Если нет сторон (например, для сферы), создаем одну фиктивную сторону для хранения цвета
+    if (sides.empty()) {
+        Side s(this);
+        s.color = color;
+        sides.push_back(s);
+    } else {
+        for (size_t i = 0; i < sides.size(); ++i) {
+            sides[i].color = color;
+        }
     }
 }
 
@@ -202,7 +209,8 @@ Figure Figure::GetHexahedron(float size) {
     res.sides.push_back(s3);
 
     Side s4(&res);
-    s4.points = {1, 5, 4, 0};
+    // Верхняя стена: изменяем порядок вершин для правильной нормали (направленной вниз)
+    s4.points = {0, 1, 5, 4};
     res.sides.push_back(s4);
 
     Side s5(&res);

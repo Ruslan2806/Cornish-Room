@@ -32,6 +32,10 @@ bool Sphere::figure_intersection(const Ray& r, float& t, Point3D& normal, Materi
         Point3D hit_point = r.start + r.direction * t;
         normal = Point3D::normalize(hit_point - points[0]);
         mat = figure_material;
+        // Устанавливаем цвет из первой стороны, если она есть, иначе используем белый
+        if (!sides.empty()) {
+            mat.color = sides[0].color;
+        }
         return true;
     }
     return false;

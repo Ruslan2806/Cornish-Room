@@ -34,9 +34,20 @@ Color RayTracer::trace(const Ray& ray, const std::vector<Figure*>& scene,
 
     // Проверяем, выходит ли луч из объекта
     bool refract_out_of_figure = false;
-    if (Point3D::scalar(ray.direction, normal) > 0.0f) {
-        normal = normal * -1.0f;
-        refract_out_of_figure = true;
+    // Для комнаты нормали должны быть направлены внутрь (к камере)
+    // Для обычных объектов - наружу (от камеры)
+    if (hit_figure && hit_figure->isRoom) {
+        // Для комнаты: если нормаль направлена наружу (скалярное произведение > 0), инвертируем ее
+        // чтобы она была направлена внутрь (к камере)
+        if (Point3D::scalar(ray.direction, normal) > 0.0f) {
+            normal = normal * -1.0f;
+        }
+    } else {
+        // Для обычных объектов: если нормаль направлена внутрь (по направлению луча), инвертируем ее
+        if (Point3D::scalar(ray.direction, normal) > 0.0f) {
+            normal = normal * -1.0f;
+            refract_out_of_figure = true;
+        }
     }
 
     Point3D hit_point = ray.start + ray.direction * t;
