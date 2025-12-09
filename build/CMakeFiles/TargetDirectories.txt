@@ -1,0 +1,3 @@
+/home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles/RayTracing.dir
+/home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles/edit_cache.dir
+/home/ruslan/Документы/GitHub/Individual-Assignment-2-The-Cornish-Room/build/CMakeFiles/rebuild_cache.dir
